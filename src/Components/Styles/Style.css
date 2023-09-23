@@ -54,8 +54,8 @@ body{
 }
 
 #contact .social-network img{
-  width: 20.5rem;
-  height: 4.5rem;
+  width: 4.2rem;
+  height: auto;
   line-height: 1rem;
   border: 1.125rem solid rgba(250, 250, 250, 1);
   color: rgba(250, 250, 250, 1);
