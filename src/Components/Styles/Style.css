@@ -35,7 +35,6 @@ body{
 }
 
 #contact .text img{
-  position: relative;
   width: 37.75rem;
   height: 4.5rem;
   border-radius: .625rem;
@@ -62,7 +61,6 @@ body{
   background-color: rgba(250, 250, 250, 1);
   border-radius: 20%;
 }
-
 
 .separator{
   width: calc(43% - 20px);

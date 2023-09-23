@@ -16,7 +16,7 @@ const Signup = () => {
       <Container>
         <Row>
           <Col lg={{span: 8, offset:2 }} className='text-center'>
-            <div className="text position-relative">
+            <div className="text">
               <h2>Login</h2>
               <p>Welcome back, we are delighted to have you</p>
               <img src={Logo} alt="logo" className='img-fluid'/>
@@ -24,7 +24,7 @@ const Signup = () => {
           </Col>
         </Row>
         <Row className="justify-content-center align-items-center"> 
-        <Col lg={3} className="center-content">
+        <Col lg={6} className="center-content">
               <div className="backg">
                 <div className="social-network">
                   <ul className="social-list d-flex">
