@@ -68,19 +68,17 @@ body{
   width: calc(43% - 20px);
   display: grid;
   grid-template-columns: 2fr 0fr 2fr;
-  gap: 11px;
   color: rgba(82, 124, 136, 0.5);
+  gap: 11px;
   margin: 0 10px;
 }
 
-
 .separator > p{
   word-break: keep-all;
-  display: block;
-  text-align: center;
-  font-weight: 600;
-  font-size: 11px;
+  font-weight: 400;
+  font-size: 1rem;
   margin: auto;
+  font-family: Montserrat;
 }
 
 .separator .line{
@@ -225,6 +223,6 @@ input[type=text],
 
   .contact-b{
     background-position: center center;
-    background-size: 60%;
+    background-size: cover;
   }
 }
