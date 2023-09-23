@@ -214,7 +214,7 @@ input[type=text],
   margin: 5px 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px){
   #contact {
     padding-left: 3rem;
   }
@@ -239,7 +239,7 @@ input[type=text],
 @media (max-width:991px){
   .contact-b{
     background-position: center center;
-    background-size: cover;
+    background-size: 120%;
   }
   .separator{
     width: calc(80% - 20px);
