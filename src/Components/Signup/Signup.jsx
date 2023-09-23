@@ -9,7 +9,6 @@ import { BsEnvelopeAt } from "react-icons/bs";
 import { BiLockAlt } from "react-icons/bi";
 
 
-
 const Signup = () => {
   return (
     <section id='contact' className='contact-b'>

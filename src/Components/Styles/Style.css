@@ -64,6 +64,7 @@ body{
 
 .separator{
   width: calc(43% - 20px);
+  display: flex;
   display: grid;
   grid-template-columns: 2fr 0fr 2fr;
   color: rgba(82, 124, 136, 0.5);
@@ -212,15 +213,62 @@ input[type=text],
   font-size: 24px;
   margin: 5px 0;
 }
-  
-@media (max-width: 768px) {
-  .center-content {
-    text-align: center;
-    margin: 0 auto;
-  }
 
+@media screen and (max-width: 768px) {
+  #contact {
+    padding-left: 3rem;
+  }
   .contact-b{
     background-position: center center;
     background-size: cover;
+  }
+  .separator{
+    width: calc(80% - 20px);
+  }
+  #contact .text img{
+    width: 80%;
+    height: 4.5rem;
+  }
+  .form{
+    width: 80%; 
+    height: 80%;
+    font-size: 16px;
+  }
+}
+
+@media (max-width:991px){
+  .contact-b{
+    background-position: center center;
+    background-size: cover;
+  }
+  .separator{
+    width: calc(80% - 20px);
+  }
+  #contact .text img{
+    width: 80%;
+    height: 4.5rem;
+  }
+  .form{
+    width: 80%; 
+    height: 80%;
+    font-size: 16px;
+  }
+}
+@media(max-width: 1199px) {
+  .contact-b{
+    background-position: center center;
+    background-size: cover;
+  }
+  .separator{
+    width: calc(80% - 20px);
+  }
+  #contact .text img{
+    width: 80%;
+    height: 5.5rem;
+  }
+  .form{
+    width: 80%; 
+    height: 80%;
+    font-size: 20px;
   }
 }
