@@ -24,13 +24,13 @@ const Signup = () => {
           </Col>
         </Row>
         <Row className="justify-content-center align-items-center"> 
-        <Col lg={6} className="center-content">
+        <Col lg={3} className="center-content">
               <div className="backg">
                 <div className="social-network">
                   <ul className="social-list d-flex">
                     <li><a href="/"><img src={google} alt="google" className='img-fluid small-img'/></a></li>
                     <li><a href="/"><img src={twitter} alt="twitter" className='img-fluid small-img'/></a></li>
-                    <li><a href="/"><img src={facebook} alt="facebook" className='img-fluid small-img'/></a></li>
+                    <li><a href="/"><img src={facebook} alt="facebook" className='img-fluid small-img more'/></a></li>
                   </ul>
                 </div>
               </div>

@@ -47,28 +47,19 @@ body{
   padding: 1rem;
 }
 
-.social-list ul li{
-  display: flex;
-  margin-bottom: .5rem;
-  list-style: none;
-}
-
 .social-list li a{
-  font-size: .875rem;
   padding-left: 1.5rem;
   position: relative;
 }
 
 #contact .social-network img{
-  width: 4.1875rem;
-  height: 4.1875rem;
+  width: 4.2rem;
+  height: auto;
   line-height: 1rem;
   border: 1.125rem solid rgba(250, 250, 250, 1);
   color: rgba(250, 250, 250, 1);
   background-color: rgba(250, 250, 250, 1);
-  text-align: center;
-  display: inline-block;
-  border-radius: 30%;
+  border-radius: 20%;
 }
 
 .separator{
@@ -102,6 +93,7 @@ body{
   margin: 30px auto;
   left: 128px;
 }
+
 .social-icons img{
   width: 30px;
   margin: 0 12px;
@@ -173,7 +165,7 @@ input[type=text],
   align-items: center;
   gap: 10px;
   justify-content: space-between;
-}
+} 
   
 .flex-row > div > label{
   font-size: 14px;
@@ -199,8 +191,8 @@ input[type=text],
   background-color:  rgba(65, 117, 5, 1);
   border: none;
   color: rgba(250, 250, 250, 1);
-  font-size: 15px;
-  font-weight: 500;
+  font-size: 18px;
+  font-weight: 600;
   border-radius: 10px;
   height: 50px;
   width: 100%;
@@ -214,7 +206,7 @@ input[type=text],
 .p{
   text-align: center;
   color: rgba(184, 184, 184, 1);
-  font-size: 14px;
+  font-size: 18px;
   margin: 5px 0;
 }
   
