@@ -234,14 +234,13 @@ input[type=text],
   #contact .text img{
     width: 80%;
     height: 2.0625rem;
+    top: 11;
   }
   #contact .social-network img{
-    width: 4.2rem;
+    width: 3.9rem;
     height: auto;
+    border-radius: .625rem;
   }
-  /* .button-submit{
-    width: 2.8125rem;
-  } */
   .form{
     width: 80%; 
     height: 80%;
