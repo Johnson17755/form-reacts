@@ -271,11 +271,13 @@ input[type=text],
     gap: 5.5rem;
   }
   .check{
-    height: 1.5rem;
+    height: 1rem;
     width: 1.5rem;
+    border-radius: .25rem;
+    border: .125rem;
   }
   .flex-row > div > label{
-    font-size: 1.5rem;
+    font-size: 1rem;
     top: 28.625rem;
   } 
   .p, 
