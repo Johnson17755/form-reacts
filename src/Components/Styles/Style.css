@@ -275,6 +275,7 @@ input[type=text],
   }
   .flex-row > div > label{
     font-size: 1.5rem;
+    top: 28.625rem;
   } 
   .p, 
   .span{
