@@ -225,8 +225,7 @@ input[type=text],
 
 @media screen and (max-width: 768px){
   #contact{
-    width: 90%;
-    margin: 0px auto;
+    padding-left: 4.6rem;
   }
   .text > h2{
     font-size: 1.5rem;
