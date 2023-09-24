@@ -161,6 +161,7 @@ input[type=text],
 .icon{
   fill: rgba(250, 250, 250, 1);
   height: 1.8331rem;
+  padding-right: 1.5rem;
 }
 
 .icons{
@@ -225,6 +226,7 @@ input[type=text],
 
 @media screen and (max-width: 768px){
   #contact{
+    margin: 0%;
     padding-left: 4.6rem;
   }
   .text > h2{
@@ -235,7 +237,16 @@ input[type=text],
   }
   .contact-b{
     background-position: center center;
-    opacity: 85%;
+  }
+  .background{
+    position: fixed;
+    width: 100vh;
+    height: 100vh;
+    top: 0%;
+    right: 0%;
+    z-index: -1;
+    opacity: 0.4;
+    background-color: black;
   }
   .separator{
     width: calc(80% - 20px);

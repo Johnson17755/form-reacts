@@ -12,6 +12,7 @@ import { BiLockAlt } from "react-icons/bi";
 const Signup = () => {
   return (
     <section id='contact' className='contact-b'>
+      <div className="background"></div>
       <Container>
         <Row>
           <Col lg={{span: 8, offset:2 }} className='text-center'>
