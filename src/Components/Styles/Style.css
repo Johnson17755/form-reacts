@@ -95,7 +95,7 @@ body{
 }
 
 .social-icons img{
-  width: 30px;
+  width: 28px;
   margin: 0 12px;
   cursor: pointer;
   border-radius: 20px;
@@ -227,19 +227,21 @@ input[type=text],
   }
   .contact-b{
     background-position: center center;
-    background-size: 80%;
   }
   .separator{
     width: calc(80% - 20px);
   }
   #contact .text img{
     width: 80%;
-    height: 4.5rem;
+    height: 2.0625rem;
   }
   #contact .social-network img{
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 4.2rem;
+    height: auto;
   }
+  /* .button-submit{
+    width: 2.8125rem;
+  } */
   .form{
     width: 80%; 
     height: 80%;
