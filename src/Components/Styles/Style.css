@@ -37,7 +37,7 @@ body{
 #contact .text img{
   width: 37.75rem;
   height: 4.5rem;
-  border-radius: .625rem;
+  border-radius: .9375rem;
   margin-top: 2.49rem;
 }
 
@@ -130,6 +130,7 @@ body{
   
 .inputForm{
   border: 1.5px solid rgba(184, 184, 184, 1);
+  background-color: rgba(51, 51, 51, 1);
   border-radius: 10px;
   height: 50px;
   display: flex;
@@ -216,11 +217,17 @@ input[type=text],
 
 @media screen and (max-width: 768px){
   #contact {
-    padding-left: 3rem;
+    padding-left: 2rem;
+  }
+  .text > h2{
+    font-size: 1.5rem;
+  }
+  .text > p{
+    font-size: .75rem;
   }
   .contact-b{
     background-position: center center;
-    background-size: cover;
+    background-size: 80%;
   }
   .separator{
     width: calc(80% - 20px);
@@ -228,6 +235,9 @@ input[type=text],
   #contact .text img{
     width: 80%;
     height: 4.5rem;
+  }
+  #contact .social-network img{
+    width: 3.9rem;
   }
   .form{
     width: 80%; 
