@@ -246,6 +246,14 @@ input[type=text],
     height: 80%;
     font-size: 16px;
   }
+  .button-submit{
+    font-size: 16px;
+  }
+  flex-row > div > label, 
+  .p, 
+  .span a{
+  font-size: 16px;
+  }
 }
 
 @media (max-width:991px){
