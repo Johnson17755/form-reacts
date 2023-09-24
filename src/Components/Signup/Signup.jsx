@@ -38,13 +38,12 @@ const Signup = () => {
               <p>or</p>
               <hr class="line" />
             </div>
-
             <form class="form">
                 <div class="flex-column">
                   <label>Email</label>
                 </div>
                 <div class="inputForm">
-                  <BsEnvelopeAt />
+                  <BsEnvelopeAt className='icons'/>
                   <input type="text" class="input" placeholder="Enter your register email address"/>
                 </div>
                 
@@ -59,7 +58,7 @@ const Signup = () => {
                 
                 <div class="flex-row">
                   <div>
-                  <input type="checkbox"/>
+                  <input type="checkbox" className='check'/>
                   <label>Save log in detail for future</label>
                   </div>
                 </div>

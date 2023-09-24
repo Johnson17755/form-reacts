@@ -39,6 +39,7 @@ body{
   height: 4.5rem;
   border-radius: .9375rem;
   margin-top: 2.49rem;
+  border: 2px solid rgba(76, 71, 247, 1);
 }
 
 .social-list{
@@ -119,7 +120,7 @@ body{
     align-self: flex-end;
 }
   
-.flex-column > label {
+.flex-column > label{
   color: rgba(184, 184, 184, 1);
   font-size: 21px;
   font-weight: 600;
@@ -129,20 +130,21 @@ body{
 }
   
 .inputForm{
-  border: 1.5px solid rgba(184, 184, 184, 1);
+  border: 2px solid rgba(184, 184, 184, 1);
   background-color: rgba(51, 51, 51, 1);
   border-radius: 10px;
-  height: 50px;
+  height: 72px;
   display: flex;
   align-items: center;
   padding-left: 10px;
+  gap: .5rem;
 }
   
 .input{
   margin-left: 10px;
   border-radius: 10px;
   border: none;
-  width: 85%;
+  width: 100%;
   height: 100%;
   background-color: rgba(51, 51, 51, 1);
 }
@@ -158,6 +160,12 @@ input[type=text],
 
 .icon{
   fill: rgba(250, 250, 250, 1);
+  height: 1.8331rem;
+}
+
+.icons{
+  width: 2rem;
+  height: 2rem;
 }
 
 .inputForm:focus-within {
@@ -180,15 +188,15 @@ input[type=text],
 }
 
 .span{
-    font-size: 22px;
-    margin-left: 5px;
-    font-weight: 500;
-    cursor: pointer;
+  font-size: 22px;
+  margin-left: 5px;
+  font-weight: 500;
+  cursor: pointer;
 }
 
 .span a{
-    text-decoration: none;
-    color: rgba(250, 250, 250, 1);
+  text-decoration: none;
+  color: rgba(250, 250, 250, 1);
 }
   
 .button-submit{
@@ -227,6 +235,7 @@ input[type=text],
   }
   .contact-b{
     background-position: center center;
+    opacity: 85%;
   }
   .separator{
     width: calc(80% - 20px);
@@ -234,12 +243,17 @@ input[type=text],
   #contact .text img{
     width: 80%;
     height: 2.0625rem;
+    border: 2px solid rgba(76, 71, 247, 1);
     top: 11;
   }
   #contact .social-network img{
     width: 3.9rem;
     height: auto;
-    border-radius: .625rem;
+    border: .625rem solid rgba(255, 255, 255, 1);
+  }
+  .icons{
+    width: 1.5rem;
+    height: 1.5rem;
   }
   .form{
     width: 80%; 
@@ -249,29 +263,49 @@ input[type=text],
   .button-submit{
     font-size: 16px;
   }
-  flex-row > div > label, 
+  .button-submit{
+    height: 3.5rem;
+    top: 650px;
+    border-radius: 10px;
+    gap: 5.5rem;
+  }
+  .check{
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+  .flex-row > div > label{
+    font-size: 1.5rem;
+  } 
   .p, 
-  .span a{
-  font-size: 16px;
+  .span{
+  font-size: 1rem;
   }
 }
 
 @media (max-width:991px){
   .contact-b{
     background-position: center center;
-    background-size: 120%;
+    opacity: 80%;
   }
   .separator{
     width: calc(80% - 20px);
   }
   #contact .text img{
-    width: 80%;
+    width: 19.5rem;
     height: 4.5rem;
+    border: 2px solid rgba(76, 71, 247, 1);
   }
   .form{
     width: 80%; 
     height: 80%;
     font-size: 16px;
+  }
+  flex-row > div > label{
+    font-size: 16px;
+  } 
+  .p 
+  .span a{
+  font-size: 16px;
   }
 }
 @media(max-width: 1199px) {
@@ -290,5 +324,12 @@ input[type=text],
     width: 80%; 
     height: 80%;
     font-size: 20px;
+  }
+  flex-row > div > label{
+    font-size: 16px;
+  } 
+  .p 
+  .span a{
+  font-size: 16px;
   }
 }
