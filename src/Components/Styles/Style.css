@@ -237,7 +237,8 @@ input[type=text],
     height: 4.5rem;
   }
   #contact .social-network img{
-    width: 3.9rem;
+    width: 2.5rem;
+    height: 2.5rem;
   }
   .form{
     width: 80%; 
