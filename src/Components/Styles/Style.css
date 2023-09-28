@@ -18,7 +18,6 @@ body{
   padding-right: 5.25rem;
   margin-left: auto;
   margin-right: auto;
-  /* padding: 3.2rem; */
 }
 
 .contact-b{
@@ -84,7 +83,6 @@ body{
 }
 
 .separator > p{
-  word-break: keep-all;
   font-weight: 400;
   font-size: 1rem;
   margin: auto;
@@ -178,13 +176,12 @@ input[type=text],
 
 .icon{
   fill: rgba(250, 250, 250, 1);
-  height: 1.8331rem;
-  padding-right: 1.5rem;
+  padding-right: 1.3rem;
+  font-size: 4rem;
 }
 
 .icons{
-  width: 2rem;
-  height: 2rem;
+  font-size: 2rem;
 }
 
 .inputForm:focus-within {
@@ -257,16 +254,11 @@ input[type=text],
 }
 
 @media screen and (max-width: 768px){
-  #contact{
-    /* position: relative;
-    padding-left: 7.25rem;
-    margin: auto;
-    width: 100vh; */
-
-    padding-left: 2.625rem;
-    padding-right: 2.625rem;
-    width: 55vh;
-  }
+   #contact{
+    margin: 1rem auto;
+    padding: 1.25rem 1rem;
+    width: 100%;
+  } 
   .text > h2{
     font-size: 1.5rem;
   }
@@ -287,13 +279,12 @@ input[type=text],
     background-color: black;
   }
   .separator{
-    width: calc(80% - 20px);
+    width: calc(100% - 20px);
   }
   #contact .text img{
     width: 80%;
     height: 2.0625rem;
     border: 2px solid rgba(76, 71, 247, 1);
-    top: 11;
   }
   .inputForm{
     width: 100%;
@@ -309,36 +300,30 @@ input[type=text],
     color: rgba(184, 184, 184, 1);
   }
   #contact .social-network img{
-    width: 3.9rem;
+    width: 3.2rem;
     height: auto;
   }
   .icon{
-    width: 1.5rem;
-    height: 1.5rem;
-    padding-right: .67rem;
+    font-size: 5.5rem;
   }
   .icons{
-    width: 1.5rem;
-    height: 1.5rem;
+    font-size: 5.5rem;
   }
   .form{
     font-family: Poppins;
     font-size: 8px;
     font-weight: 400;
     line-height: 12px;
-    letter-spacing: 0em;
     text-align: left;
     width: 100%;
     height: 100%;
-  }
-  .button-submit{
-    font-size: 16px;
   }
   .button-submit{
     height: 3.5rem;
     top: 650px;
     border-radius: 10px;
     gap: 5.5rem;
+    font-size: 16px;
   }
   .check{
     height: 1rem;
@@ -363,15 +348,15 @@ input[type=text],
     opacity: 80%;
   }
   .separator{
-    width: calc(80% - 20px);
+    width: calc(100% - 20px) !important;
   }
   #contact .text img{
-    width: 19.5rem;
+    width: 100% !important;
     height: 4.5rem;
     border: 2px solid rgba(76, 71, 247, 1);
   }
   .form{
-    width: 80%; 
+    width: 100% !important; 
     height: 80%;
     font-size: 16px;
   }
