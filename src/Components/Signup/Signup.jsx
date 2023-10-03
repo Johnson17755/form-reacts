@@ -24,7 +24,7 @@ const Signup = () => {
               <p>Welcome back, we are delighted to have you</p>
               <div className="domain">
                 <ul>
-                  <li><a href="/"><img src={domain} alt="domain"/>Continue With Unstoppable Domain</a></li>
+                  <li><a href="/"><img src={domain} alt="domain"/><b>Continue With Unstoppable Domain</b></a></li>
                 </ul>
               </div>
             </div>
@@ -38,7 +38,7 @@ const Signup = () => {
                     <li><a href="/"><img src={google} alt="google" className='img-fluid small-img'/></a></li>
                     <li><a href="/"><img src={facebook} alt="facebook" className='img-fluid small-img'/></a></li>
                     <li><a href="/"><img src={twitter} alt="twitter" className='img-fluid small-img'/></a></li>
-                    <li><a href="/" className='btn'>Continue as Guest</a></li>
+                    <li><a href="/" className='btn'><b>Continue as Guest</b></a></li>
                   </ul>
                 </div>
               </div>
