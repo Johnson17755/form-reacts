@@ -317,12 +317,11 @@ input[type=text],
     letter-spacing: 0em;
     text-align: center;
     padding: 1rem 1rem;
+    max-width: 100%;
   }  
-  /* .social-list li .btn{
-    margin-left: 20px;
-  } */
   .social-list li{
-    margin-right: 13px;
+    flex-wrap: nowrap;
+    margin: 5px;
   }
   .text > h2{
     font-size: 1.5rem;
