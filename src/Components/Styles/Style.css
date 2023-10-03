@@ -318,7 +318,7 @@ input[type=text],
     line-height: 40px;
     letter-spacing: 0em;
     text-align: center;
-    padding: 1rem 2rem;
+    padding: 1rem 2.3rem;
     white-space: nowrap;
   }  
   .social-list li:last-child {
@@ -326,7 +326,7 @@ input[type=text],
   }
   .social-list li{
     flex-wrap: nowrap;
-    margin-right: 12px;
+    margin-right: 15px;
   }
   .text > h2{
     font-size: 1.5rem;
