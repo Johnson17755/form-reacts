@@ -106,6 +106,8 @@ body{
   max-width: 1.5rem;
   height: auto;
   margin-right: 22px;
+  align-items: center;
+  justify-content: center;
 }
 
 .social-list{
@@ -320,7 +322,7 @@ input[type=text],
     line-height: 40px;
     letter-spacing: 0em;
     text-align: center;
-    padding: 1rem 2.1rem;
+    padding: 1rem 2rem;
     white-space: nowrap;
   }  
   .social-list li:last-child {
@@ -328,7 +330,7 @@ input[type=text],
   }
   .social-list li{
     flex-wrap: nowrap;
-    margin-right: 17px;
+    margin-right: 14px;
   }
   .text > h2{
     font-size: 1.5rem;
@@ -370,7 +372,10 @@ input[type=text],
   }
   #contact .domain li img{
     margin-right: 10px;
+    width: 24px;
+    height: 24px;
     justify-content: center;
+    align-items: center;
   }
   .inputForm{
     height: 56px;
