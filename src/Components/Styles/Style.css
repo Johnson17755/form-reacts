@@ -322,7 +322,7 @@ input[type=text],
     line-height: 40px;
     letter-spacing: 0em;
     text-align: center;
-    padding: 1rem 2rem;
+    padding: 1rem 1.7rem;
     white-space: nowrap;
   }  
   .social-list li:last-child {
