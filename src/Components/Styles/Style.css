@@ -11,6 +11,33 @@ body{
   color: rgba(184, 184, 184, 1);
 }
 
+.btn{
+  border: 2px solid rgba(47, 233, 255, 1);
+  border-radius: .625rem;
+  color:rgba(47, 233, 255, 1);
+  font-family: Poppins;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 60px;
+  padding: 1rem 1.60rem;
+  text-align: center;
+  margin-left: 2.466rem;
+  -webkit-box-shadow:rgba(47, 233, 255, 1);
+  box-shadow: rgba(47, 233, 255, 1);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn:focus {
+  outline: 2px solid rgba(47, 233, 255, 1);
+  outline-offset: 2px;
+}
+
+.btn:focus-visible {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
 #contact{
   margin: auto;
   padding-top: 1.25rem;
@@ -42,30 +69,58 @@ body{
   letter-spacing: 0em;
 }
 
-#contact .text img{
-  width: 37.75rem;
-  height: 4.5rem;
-  border-radius: .9375rem;
-  margin-top: 2.49rem;
-  border: 2px solid rgba(76, 71, 247, 1);
-}
-
-.social-list{
-  display: flex;
+#contact .domain li{
   list-style-type: none;
-  padding: 1.2rem;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 42px;
+  margin-top: 30px;
+  letter-spacing: 0em;
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
+  padding: 0%;
+  width: 42%;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  max-width: 100%;
 }
 
-.social-list li a{
-  position: relative;
-  padding-right: 2.4rem;
-  margin: -13px;
+#contact .domain li a{
+  text-decoration: none;
+  color: rgba(47, 233, 255, 1);
+  border: 2px solid rgba(76, 71, 247, 1);
+  border-radius: .9375rem;
+  padding: 1rem .75rem;
+  flex-wrap: nowrap;
+  flex: 1;
+}
+
+#contact .domain li img{
+  border: none;
+  max-width: 1.5rem;
+  height: auto;
+  margin-right: 22px;
+}
+
+.social-list {
+  display: flex;
+  list-style: none;
+  margin-top: 18px;
+  margin-bottom: 18px; 
+  line-height: 42px;
+  margin-top: 30px;
+}
+
+.social-list li{
+  margin-right: 33px;
 }
 
 #contact .social-network img{
-  width: 4.2rem;
+  width: 4rem;
   height: auto;
-  line-height: 1rem;
+  line-height: 2.625rem;
   border: 1.125rem solid rgba(250, 250, 250, 1);
   color: rgba(250, 250, 250, 1);
   background-color: rgba(250, 250, 250, 1);
@@ -73,13 +128,14 @@ body{
 }
 
 .separator{
-  width: calc(41% - 20px);
+  width: calc(40% - 20px);
   display: flex;
   display: grid;
   grid-template-columns: 2fr 0fr 2fr;
   color: rgba(184, 184, 184, 1);;
   gap: 11px;
   margin: 0 10px;
+  line-height: 42px;
 }
 
 .separator > p{
@@ -93,14 +149,8 @@ body{
   display: inline-block;
   width: 100%;
   height: 2px;
-  border: 0;
   background-color: rgba(250, 250, 250, 1);
   margin: auto;
-}
-
-.social-icons{
-  margin: 30px auto;
-  left: 5rem;
 }
 
 .social-icons img{
@@ -254,11 +304,26 @@ input[type=text],
 }
 
 @media screen and (max-width: 768px){
-   #contact{
+  #contact{
     margin: 1rem auto;
-    padding: 1.25rem 1rem;
+    padding: 1.25rem 1.7rem;
     width: 100%;
-  } 
+  }
+  .btn{
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 1rem 1rem;
+  }  
+  /* .social-list li .btn{
+    margin-left: 20px;
+  } */
+  .social-list li{
+    margin-right: 13px;
+  }
   .text > h2{
     font-size: 1.5rem;
   }
@@ -276,24 +341,38 @@ input[type=text],
     right: 0%;
     z-index: -1;
     opacity: 0.7;
-    background-color: black;
+    background: 1px solid rgba(51, 51, 51, 0.8);
   }
   .separator{
     width: calc(100% - 20px);
   }
-  #contact .text img{
-    width: 80%;
-    height: 2.0625rem;
-    border: 2px solid rgba(76, 71, 247, 1);
+  #contact .domain li{
+    flex-direction: column; 
+    margin-right: 0px;
+    width: 100%;
+  }
+  #contact .domain li a{
+    width: 100%; /* Take up full width on small screens */
+    height: 45px;
+    padding-top: 1rem 0; /* Add padding to the top and bottom for spacing */
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  #contact .domain li img{
+    margin-right: 32px; /* Remove margin on small screens */
+    margin-bottom: 0px; /* Add space below the image on small screens */
   }
   .inputForm{
-    width: 100%;
     height: 56px;
     border-radius: 10px;
   }
   .input{
     font-family: Poppins;
-    font-size: 8px;
+    font-size: 15px;
     font-weight: 400;
     line-height: 12px;
     text-align: left;
@@ -307,7 +386,7 @@ input[type=text],
     font-size: 5.5rem;
   }
   .icons{
-    font-size: 5.5rem;
+    font-size: 4.8rem;
   }
   .form{
     font-family: Poppins;

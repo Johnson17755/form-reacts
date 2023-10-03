@@ -1,10 +1,11 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import '../Styles/Style.css';
-import Logo from '../Assets/continue with unstoppable domain.png';
+// import Logo from '../Assets/continue with unstoppable domain.png';
 import twitter from '../Assets/twitter.svg';
 import google from '../Assets/google icon.svg';
 import facebook from '../Assets/facebook.svg';
+import domain from '../Assets/unstoppabledomains 1.svg';
 
 import { BsEnvelopeAt } from "react-icons/bs";
 import { BiLockAlt } from "react-icons/bi";
@@ -21,7 +22,11 @@ const Signup = () => {
             <div className="text">
               <h2>Login</h2>
               <p>Welcome back, we are delighted to have you</p>
-              <img src={Logo} alt="logo" className='img-fluid'/>
+              <div className="domain">
+                <ul>
+                  <li><a href="/"><img src={domain} alt="domain"/>Continue With Unstoppable Domain</a></li>
+                </ul>
+              </div>
             </div>
           </Col>
         </Row>
@@ -33,6 +38,7 @@ const Signup = () => {
                     <li><a href="/"><img src={google} alt="google" className='img-fluid small-img'/></a></li>
                     <li><a href="/"><img src={facebook} alt="facebook" className='img-fluid small-img'/></a></li>
                     <li><a href="/"><img src={twitter} alt="twitter" className='img-fluid small-img'/></a></li>
+                    <li><a href="/" className='btn'>Continue as Guest</a></li>
                   </ul>
                 </div>
               </div>
