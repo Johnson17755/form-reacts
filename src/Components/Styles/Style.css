@@ -353,13 +353,13 @@ input[type=text],
   #contact .domain li a{
     width: 100%; /* Take up full width on small screens */
     height: 45px;
-    padding-top: 1rem 0; /* Add padding to the top and bottom for spacing */
     font-family: Poppins;
     font-size: 17px;
     font-weight: 500;
     line-height: 21px;
     letter-spacing: 0em;
     text-align: left;
+    white-space: nowrap;
   }
   #contact .domain li img{
     margin-right: 32px; 
