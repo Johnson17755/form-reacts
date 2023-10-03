@@ -326,7 +326,7 @@ input[type=text],
   }
   .social-list li{
     flex-wrap: nowrap;
-    margin-right: 15px;
+    margin-right: 12px;
   }
   .text > h2{
     font-size: 1.5rem;
