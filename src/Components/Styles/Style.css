@@ -325,7 +325,7 @@ input[type=text],
     white-space: nowrap;
   }  
   .social-list {
-    flex-wrap: nowrap; /* Allow items to wrap onto multiple lines */
+    flex-wrap: nowrap;
   }
   .social-list li:last-child {
     margin-left: 0.94rem;
