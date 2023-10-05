@@ -1,7 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import '../Styles/Style.css';
-// import Logo from '../Assets/continue with unstoppable domain.png';
 import twitter from '../Assets/twitter.svg';
 import google from '../Assets/google icon.svg';
 import facebook from '../Assets/facebook.svg';
@@ -35,9 +34,9 @@ const Signup = () => {
               <div className="backg">
                 <div className="social-network">
                   <ul className="social-list">
-                    <li><a href="/"><img src={google} alt="google" className='img-fluid small-img'/></a></li>
-                    <li><a href="/"><img src={facebook} alt="facebook" className='img-fluid small-img'/></a></li>
-                    <li><a href="/"><img src={twitter} alt="twitter" className='img-fluid small-img'/></a></li>
+                    <li><a href="/"><img src={google} alt="google" className='img-fluid'/></a></li>
+                    <li><a href="/"><img src={facebook} alt="facebook" className='img-fluid'/></a></li>
+                    <li><a href="/"><img src={twitter} alt="twitter" className='img-fluid'/></a></li>
                     <li><a href="/" className='btn'><b>Continue as Guest</b></a></li>
                   </ul>
                 </div>
